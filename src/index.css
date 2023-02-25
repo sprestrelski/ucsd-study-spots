@@ -1,0 +1,40 @@
+.Container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    place-content: center;
+  }
+
+.Card {
+  color: #000;
+  background-color: #fff;
+  box-shadow: 0 15px 25px #817c7c33;
+  font-size: medium;
+  border-radius: 14px;
+  backdrop-filter: blur(2px);
+  text-align: center;
+  margin: 10px;
+  min-height: 450px;
+  padding-bottom: 1%;
+  max-width: 300px;
+}
+
+.Card img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.button {
+  background-color: #d180e7;
+  border-radius: 6px;
+  border: 1px solid #c584f3;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 6px 24px;
+}
+
+.button:hover {
+  background-color: #bc80ea;
+}
+
